@@ -1,3 +1,15 @@
+/* Master style*/
+body{
+    margin: 0px;
+
+}
+
+div.container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* Nav style*/
 div.nav-wrapper{
     display: flex;
     justify-content: space-between;
@@ -13,3 +25,57 @@ div.nav-wrapper > div.left-side > div{
     font-size: 0.9em;
     text-transform: uppercase;
 }
+
+div.nav-link-wrapper{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+div.nav-link-wrapper a{
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+div.nav-link-wrapper:hover{
+    border-bottom: 1px solid black;
+}
+
+
+div.nav-link-wrapper :hover{
+    color: black;
+}
+
+/*Portfolio style*/
+
+div.portfolio-items-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+div.portfolio-item-wrapper{
+    position: relative;
+}
+
+div.portfolio-img-background {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+  }
+  
+div.img-text-wrapper {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
