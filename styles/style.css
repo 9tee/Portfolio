@@ -1,0 +1,15 @@
+div.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+div.left-side{
+    display: flex;
+}
+
+div.nav-wrapper > div.left-side > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
