@@ -64,7 +64,7 @@ div.portfolio-img-background {
     background-repeat: no-repeat;
     height: 350px;
     width: 100%;
-  }
+}
   
 div.img-text-wrapper {
     position: absolute;
@@ -77,7 +77,24 @@ div.img-text-wrapper {
     text-align: center;
     padding-left: 100px;
     padding-right: 100px;
-  }
+}
+
 div.logo-wrapper img{
     width: 50%;
+    margin-bottom: 20px;
+}
+
+div.img-text-wrapper div.subtitle{
+    transition: 1s;
+    font-weight: 600;
+    color: transparent;
+}
+div.img-text-wrapper:hover div.subtitle{
+    font-weight: 600;
+    color: lightseagreen;
+}
+
+div.img-darken{
+    transition: 1s;
+    filter: brightness(10%);
 }
